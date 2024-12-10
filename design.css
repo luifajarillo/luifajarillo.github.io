@@ -4,9 +4,9 @@ body{
 
 #header{
     display: inline-block;
-    margin: 0;
     padding: 10px;
 }
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -15,7 +15,7 @@ ul{
     vertical-align: top;
 }
 
-#nav{
+li{
     display: inline;
     margin: 0 15px;
 }
@@ -33,19 +33,3 @@ ul{
     padding: 10px 20px;
     background-color: #f4f4f4;
 }
-
-#content{
-	position: relative;
-	float: center;
-	padding: 10px 20px;
-	padding-top: 10px;
-	padding-right: 20px;
-	margin-top: 20px;
-	margin-left: 40px;
-	margin-right: 400px;
-	font-family: Helvetica;
-	font-size: 17px;
-	text-align: justify;
-	color: #1F2544;
-}
-
