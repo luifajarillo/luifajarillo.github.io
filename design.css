@@ -27,7 +27,7 @@ body {
     text-decoration: none;
     color: white;
     font-size: 16px;
-    transition: color 0.3s;
+    transition: color 0.2s;
 }
 .navbar ul li a:hover {
     color: #f4a261;
