@@ -27,7 +27,7 @@ li a{
     text-decoration: none;
 }
 
-#content{
+.content{
     align-items: center;
     margin: auto;
 }
