@@ -1,35 +1,41 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #1F2544;
     padding: 30px 20px;
-    color: white;
+    color: #FFD0EC;
     height: 30px;
 }
+
 .navbar .site-name{
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
 }
+
 .navbar ul{
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
+
 .navbar ul li{
     margin-left: 20px;
 }
+
 .navbar ul li a{
     text-decoration: none;
     color: white;
     font-size: 16px;
     transition: color 0.2s;
 }
+
 .navbar ul li a:hover{
     color: #f4a261;
 }
