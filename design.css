@@ -7,13 +7,14 @@ body{
 }
 
 #nav{
-	margin-top: 1px;
+	margin-top: 0px;
 	border: #474F7A solid;
 	text-align: center;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: #474F7A;
 	color: #FFF4EA;
+    display: inline;
 }
 
 .pages{
@@ -37,6 +38,11 @@ body{
 	opacity: 1;
 	background-color: #FFF4EA;
 	color: #474F7A;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
 }
 
 #content{
