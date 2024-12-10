@@ -2,16 +2,6 @@ body{
 	background-color: #FFF4EA;
 }
 
-h1{
-	background-color: #1F2544;
-	padding: 20px 20px;
-	margin: 0px;
-	font-size: 50px;
-	font-family: Garamond;
-	color: #FFF4EA;
-	text-align: center;
-}
-
 #header{
 	box-shadow: 0px 8px #FFF4EA;
 }
