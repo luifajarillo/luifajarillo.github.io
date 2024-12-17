@@ -238,6 +238,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .folder-tabs{
@@ -272,13 +273,26 @@ body {
     font-family: Candara Light;
 }
 
+.content a{
+    text-decoration: none;        
+    cursor: pointer; 
+    color: inherit;
+    font-weight: bolder      
+}
+
+.content a:hover {
+    opacity: 0.8;  
+    color: #F68989 ;   
+}
+
+
 .contact-page{
     flex-direction: column;
     text-align: center;
     background-color: #FCFCF7;
 }
 
-.contact-page h2 {
+.contact-page h2{
     font-size: 6rem;
     font-weight: bold;
     font-family: Footlight MT Light;
@@ -374,5 +388,10 @@ body {
 
     .contact-page h2 {
         font-size: 4rem;
+    }
+
+    .social-icon {
+        width: 60px; 
+        height: 60px;
     }
 }
