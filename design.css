@@ -1,6 +1,6 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -26,6 +26,7 @@ body {
     padding: 20px 30px;
     z-index: 1000;
     background-color: #FCFCF7;
+    max-width: 100%;
 }
 
 .logo {
@@ -37,6 +38,7 @@ body {
 .nav-links {
     display: flex;
     list-style: none;
+    max-width: 100%;
 }
 
 .nav-links li {
@@ -62,6 +64,7 @@ body {
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 .profile, .about-page, .edu-skills-page, .projects-page, .contact-page {
@@ -118,6 +121,7 @@ body {
     background-color: #FCFCF7;
     flex-wrap: wrap; 
     padding-left: 15%;
+    max-width: 100%;
 }
 
 .edu-left, .skills-right{
@@ -147,6 +151,7 @@ body {
     display: flex;
     align-items: flex-start;
     margin-bottom: 30px;
+    max-width: 100%;
 }
 
 .timeline-dot {
@@ -211,6 +216,7 @@ body {
     justify-content: center;
     flex-direction: row-reverse;
     padding: 15%;
+    max-width: 100%;
 }
 
 .projects-label{
@@ -239,11 +245,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    max-width: 100%;
 }
 
 .folder-tabs{
     display: flex;
     margin-bottom: 20px;
+    max-width: 100%;
 }
 
 .tab{
@@ -285,7 +293,6 @@ body {
     color: #F68989 ;   
 }
 
-
 .contact-page{
     flex-direction: column;
     text-align: center;
@@ -305,6 +312,7 @@ body {
     justify-content: center;
     gap: 15px;
     margin-top: 20px;
+    max-width: 100%;
 }
 
 .social-icon {
